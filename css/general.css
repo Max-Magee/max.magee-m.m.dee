@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #212121;
+  color: white;
+}
+
+.HERO {
+  justify-self: center;
+  align-self: center;
+}
+
+.temagrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.temagrid figure {
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: #616161;
+  border: none;
+}
+
+.T_grid {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-template-rows: 1fr;
+}
+
+.T_Title {
+  background-color: #454545;
+
+  border-right: 5px solid black;
+}
+.T_Title figure {
+  background-color: #212121;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+._3p {
+  background-color: #616161;
+  display: grid;
+}
+._3p .prosection {
+  display: grid;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+
+  overflow-y: auto;
+}
+._3p .prosection:nth-child(2) {
+  height: 30vh;
+}
+
+@media (max-width: 800px) {
+  .temagrid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .T_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 5fr;
+  }
+  .T_Title {
+    border-right: none;
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+  }
+  .T_Title figure {
+    height: 60%;
+    width: 80%;
+  }
+}
