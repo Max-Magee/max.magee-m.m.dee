@@ -4,6 +4,12 @@
   --Lpurple: #6c67db;
   --Dpurple: #3f4273;
 }
+header a {
+  font-family: "Color Basic";
+  color: var(--Lpurple);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
 
 h1 {
   font-family: "Qubiko";
@@ -12,6 +18,9 @@ h1 {
   font-size: 6rem;
   margin-top: 2rem;
   letter-spacing: 1rem;
+}
+#th1 {
+  font-family: "Color Basic";
 }
 h2 {
   font-family: "Librium";
@@ -43,5 +52,5 @@ h4 {
 }
 @font-face {
   font-family: "Color Basic";
-  src: url(../fonts/Qubiko.otf) format("opentype");
+  src: url(../fonts/Color_Basic.otf) format("opentype");
 }
