@@ -1,0 +1,47 @@
+:root {
+  --main-bg-color: #fdfff3;
+  --orange-color: #db9167;
+  --Lpurple: #6c67db;
+  --Dpurple: #3f4273;
+}
+
+h1 {
+  font-family: "Qubiko";
+  color: var(--orange-color);
+  text-align: center;
+  font-size: 6rem;
+  margin-top: 2rem;
+  letter-spacing: 1rem;
+}
+h2 {
+  font-family: "Librium";
+  color: var(--Dpurple);
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+h3,
+h4 {
+  font-family: "Thabit";
+  color: var(--Dpurple);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 1rem 0;
+}
+
+@font-face {
+  font-family: "Qubiko";
+  src: url(../fonts/Qubiko.otf) format("opentype");
+}
+@font-face {
+  font-family: "Librium";
+  src: url(../fonts/LIBRIUM.ttf) format("trueType");
+}
+
+@font-face {
+  font-family: "Thabit";
+  src: url(../fonts/Thabit.ttf) format("trueType");
+}
+@font-face {
+  font-family: "Color Basic";
+  src: url(../fonts/Qubiko.otf) format("opentype");
+}
