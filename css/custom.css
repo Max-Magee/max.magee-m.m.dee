@@ -4,6 +4,9 @@
   --Lpurple: #6c67db;
   --Dpurple: #3f4273;
 }
+body {
+  background-color: var(--main-bg-color);
+}
 header a {
   font-family: "Color Basic";
   color: var(--Lpurple);
