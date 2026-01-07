@@ -5,15 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/burger.css" />
     <title>Homepage</title>
   </head>
 
   <body>
     <header>
       <nav>
-        <a href="portfolio.html">portfolio</a>
-        <a href="omMig.html">om mig</a>
-        <a href="kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="omMig.html">om mig</a></li>
+          <li><a class="activeA" href="kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
@@ -21,6 +29,7 @@
       <section class="HERO">
         <a href="omMig.html"><img class="hero" src="imgs/LOGO1.svg" alt="logo1" /></a>
       </section>
+      <script src="js/menu.js"></script>
     </main>
     <footer></footer>
   </body>

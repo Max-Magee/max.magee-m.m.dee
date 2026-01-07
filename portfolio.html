@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/burger.css" />
     <title>Portfolio</title>
   </head>
 
@@ -12,14 +13,24 @@
     <header>
       <a href="index.html"><img class="headerlogo" src="imgs/LOGO1.svg" alt="logo1" /></a>
       <nav>
-        <a class="activeA" href="portfolio.html">portfolio</a>
-        <a href="omMig.html">om mig</a>
-        <a href="kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a class="activeA" href="portfolio.html">portfolio</a></li>
+          <li><a href="omMig.html">om mig</a></li>
+          <li><a href="kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
     <main>
-      <h1>Portfolio</h1>
+      <div class="title">
+        <h1>Portfolio</h1>
+        <h2>1.Semester temaoversigt</h2>
+      </div>
       <section class="temagrid">
         <figure>
           <figcaption>
@@ -52,6 +63,7 @@
           </figcaption>
         </figure>
       </section>
+      <script src="js/menu.js"></script>
     </main>
     <footer></footer>
   </body>

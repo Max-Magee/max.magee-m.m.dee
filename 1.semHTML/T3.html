@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="../css/burger.css" />
     <title>T3 - Grundlæggende Web</title>
   </head>
 
@@ -12,9 +13,16 @@
     <header>
       <a href="../index.html"><img class="headerlogo" src="../imgs/LOGO1.svg" alt="logo1" /></a>
       <nav>
-        <a class="activeA" href="../portfolio.html">portfolio</a>
-        <a href="../omMig.html">om mig</a>
-        <a href="../kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a class="activeA" href="../portfolio.html">portfolio</a></li>
+          <li><a href="../omMig.html">om mig</a></li>
+          <li><a href="../kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
@@ -27,6 +35,7 @@
         <a href="T5.html">T5</a>
         <a href="T6.html">T6</a>
       </nav>
+      <h2 id="tematitel">T2 - Grundlæggende UX/UI</h2>
       <div class="T_grid">
         <section class="T_Title">
           <h1 id="th1">t3</h1>
@@ -39,53 +48,56 @@
               <article>
                 <h4>Website om et selvvalgt emne med fokus på brugeroplevelse og visuelt design.</h4>
               </article>
+              <button class="CTA">
+                <a href="https://max-magee.github.io/_EMNE/index.html" target="_blank">LINK</a>
+              </button>
             </div>
           </div>
           <div class="prosection">
             <h2>Proces</h2>
             <div class="info-list">
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T3/Skærmbillede 2026-01-07 005323.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Idéudvikling:</h3>
-                  <h4>Oprettelse af repository, versionsstyring og GitHub Pages</h4>
+                  <h4>Emne, formål og målgruppe</h4>
                 </div>
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T3/Skærmbillede 2026-01-07 005431.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Research:</h3>
-                  <h4>Introduktion til designværktøj og layout af præsentationskort</h4>
+                  <h4>Forståelse af brugernes behov</h4>
                 </div>
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T3/Skærmbillede 2026-01-07 005510.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Design:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Værdiord, moodboards og style tiles</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T3/Skærmbillede 2026-01-07 005636.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Prototyper:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Skitsering og wireframes</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T2/Skærmbillede 2026-01-07 004903.png" alt="Article image" />
                 <div class="info-content">
                   <h3>UI:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Patterns, kodning og iteration</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T3/Skærmbillede 2026-01-07 005530.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Test:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Brugertests og justeringer</h4>
                 </div>
               </article>
             </div>
@@ -108,6 +120,7 @@
           </div>
         </section>
       </div>
+      <script src="../js/menu.js"></script>
     </main>
     <footer></footer>
   </body>

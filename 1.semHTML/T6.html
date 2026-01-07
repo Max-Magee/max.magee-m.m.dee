@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="../css/burger.css" />
     <title>T2 - Grundlæggende Web</title>
   </head>
 
@@ -12,9 +13,16 @@
     <header>
       <a href="../index.html"><img class="headerlogo" src="../imgs/LOGO1.svg" alt="logo1" /></a>
       <nav>
-        <a class="activeA" href="../portfolio.html">portfolio</a>
-        <a href="../omMig.html">om mig</a>
-        <a href="../kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a class="activeA" href="../portfolio.html">portfolio</a></li>
+          <li><a href="../omMig.html">om mig</a></li>
+          <li><a href="../kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
@@ -27,6 +35,7 @@
         <a href="T5.html">T5</a>
         <a href="T6.html">t6</a>
       </nav>
+      <h2 id="tematitel">T2 - Portfolioeksamen</h2>
       <div class="T_grid">
         <section class="T_Title">
           <h1 id="th1">t6</h1>
@@ -37,35 +46,51 @@
             <h2>Product</h2>
             <div>
               <article>
-                <h3>lorem1</h3>
-                <h4>Fungerende GitHub-repository og publiceret site Præsentationskort af medstuderende Introvideo produceret i gruppe</h4>
+                <h4>Denne portfolio, som samler alle projekter og dokumenterer min faglige udvikling.</h4>
               </article>
+              <button class="CTA">
+                <a href="../index.html" target="_blank">LINK</a>
+              </button>
             </div>
           </div>
           <div class="prosection">
             <h2>Proces</h2>
             <div class="info-list">
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T6/Skærmbillede 2026-01-07 011106.png" alt="Article image" />
                 <div class="info-content">
-                  <h3>GitHub</h3>
-                  <h4>Oprettelse af repository, versionsstyring og GitHub Pages</h4>
+                  <h3>Research</h3>
+                  <h4>Analyse af andre portfolios og interviews</h4>
                 </div>
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T6/Skærmbillede 2026-01-07 011140.png" alt="Article image" />
                 <div class="info-content">
-                  <h3>Figma</h3>
-                  <h4>Introduktion til designværktøj og layout af præsentationskort</h4>
+                  <h3>Design</h3>
+                  <h4>Style tile samt lo-fi og hi-fi prototyper</h4>
                 </div>
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T6/Skærmbillede 2026-01-07 011207.png" alt="Article image" />
                 <div class="info-content">
-                  <h3>Gruppearbejde</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h3>Indhold</h3>
+                  <h4>Målrettede tekster og billeder</h4>
+                </div>
+              </article>
+              <article class="info-article">
+                <img src="../imgs/T6/Skærmbillede 2026-01-07 011248.png" alt="Article image" />
+                <div class="info-content">
+                  <h3>Struktur</h3>
+                  <h4>Sitemap, layout og responsivitet</h4>
+                </div>
+              </article>
+              <article class="info-article">
+                <img src="../imgs/T6/Skærmbillede 2026-01-07 011317.png" alt="Article image" />
+                <div class="info-content">
+                  <h3>Kode</h3>
+                  <h4>HTML, CSS, JavaScript og custom properties</h4>
                 </div>
               </article>
             </div>
@@ -74,8 +99,7 @@
             <h2>Progression</h2>
             <div>
               <article>
-                <h3>lorem1</h3>
-                <h4>Grundlæggende forståelse for studiet og dets værktøjer Introduktion til samarbejde og arbejdsprocesser Bedre kendskab til medstuderende</h4>
+                <h4>Samlet overblik over semesterets temaer <br />Refleksion over egen læring og kompetencer <br />Forberedelse og motivation til næste semester</h4>
               </article>
             </div>
           </div>
@@ -83,12 +107,13 @@
             <h2 id="refleks">Refleksion</h2>
             <div>
               <article>
-                <h4>Temaet lærte mig, at godt design skal tage udgangspunkt i brugeren frem for egne antagelser. Brugertests viste tydeligt, hvordan selv små justeringer kan forbedre brugeroplevelsen markant.</h4>
+                <h4>Arbejdet med portfolioen har tydeliggjort min faglige udvikling gennem semesteret. Jeg kan se en klar progression i både mine tekniske og designmæssige kompetencer og føler mig godt rustet til næste semester.</h4>
               </article>
             </div>
           </div>
         </section>
       </div>
+      <script src="../js/menu.js"></script>
     </main>
     <footer></footer>
   </body>
