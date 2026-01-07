@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="../css/burger.css" />
     <title>T2 - Grundlæggende Web</title>
   </head>
 
@@ -12,9 +13,16 @@
     <header>
       <a href="../index.html"><img class="headerlogo" src="../imgs/LOGO1.svg" alt="logo1" /></a>
       <nav>
-        <a class="activeA" href="../portfolio.html">portfolio</a>
-        <a href="../omMig.html">om mig</a>
-        <a href="../kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a class="activeA" href="../portfolio.html">portfolio</a></li>
+          <li><a href="../omMig.html">om mig</a></li>
+          <li><a href="../kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
@@ -27,6 +35,7 @@
         <a href="T5.html">t5</a>
         <a href="T6.html">T6</a>
       </nav>
+      <h2 id="tematitel">T2 - Grundlæggende Indhold</h2>
       <div class="T_grid">
         <section class="T_Title">
           <h1 id="th1">t5</h1>
@@ -39,60 +48,63 @@
               <article>
                 <h4>Redesign af en eksisterende virksomheds website udført i gruppe.</h4>
               </article>
+              <button class="CTA">
+                <a href="https://max-magee.github.io/Virksomhedssite/index.html" target="_blank">LINK</a>
+              </button>
             </div>
           </div>
           <div class="prosection">
             <h2>Proces</h2>
             <div class="info-list">
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T5/Skærmbillede 2026-01-07 010239.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Gruppe:</h3>
-                  <h4>Oprettelse af repository, versionsstyring og GitHub Pages</h4>
+                  <h4>Sammensat via Creative Problem Solving Profile</h4>
                 </div>
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T5/Skærmbillede 2026-01-07 010304.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Workflow:</h3>
-                  <h4>Introduktion til designværktøj og layout af præsentationskort</h4>
+                  <h4>Kontrakt, SCRUM, Trello og opgavefordeling</h4>
                 </div>
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T5/Skærmbillede 2026-01-07 010414.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Analyse:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Virksomhed og målgruppe</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T5/Skærmbillede 2026-01-07 010619.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Indhold:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Tekst, billeder og visuel stil</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T5/Skærmbillede 2026-01-07 010548.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Struktur:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Sitemap, layout og responsivitet</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T5/Skærmbillede 2026-01-07 010800.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Kode:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Navigation, kontaktformular og JavaScript</h4>
                 </div>
               </article>
               <article class="info-article">
                 <img src="../imgs/LOGO1.svg" alt="Article image" />
                 <div class="info-content">
                   <h3>Præsentation:</h3>
-                  <h4>Idéudvikling, planlægning, filmning, klipning og fremvisning</h4>
+                  <h4>Slides og fremlæggelse</h4>
                 </div>
               </article>
             </div>
@@ -101,8 +113,10 @@
             <h2>Progression</h2>
             <div>
               <article>
-                <h3>lorem1</h3>
-                <h4>Grundlæggende forståelse for studiet og dets værktøjer Introduktion til samarbejde og arbejdsprocesser Bedre kendskab til medstuderende</h4>
+                <h4>
+                  Analyse og forbedring af eksisterende løsninger <br />Professionelt arbejde med indhold, UX og UI <br />
+                  Erfaring med teamwork og projektstyring
+                </h4>
               </article>
             </div>
           </div>
@@ -110,12 +124,13 @@
             <h2 id="refleks">Refleksion</h2>
             <div>
               <article>
-                <h4>Temaet lærte mig, at godt design skal tage udgangspunkt i brugeren frem for egne antagelser. Brugertests viste tydeligt, hvordan selv små justeringer kan forbedre brugeroplevelsen markant.</h4>
+                <h4>Gruppearbejdet gjorde det tydeligt, hvor vigtigt tydelig kommunikation og struktur er. Jeg lærte, at gode digitale løsninger kræver både analyse, samarbejde og fælles beslutninger.</h4>
               </article>
             </div>
           </div>
         </section>
       </div>
+      <script src="../js/menu.js"></script>
     </main>
     <footer></footer>
   </body>

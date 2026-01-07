@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/general.css" />
     <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="../css/burger.css" />
     <title>T2 - Grundlæggende Web</title>
   </head>
 
@@ -12,9 +13,16 @@
     <header>
       <a href="../index.html"><img class="headerlogo" src="../imgs/LOGO1.svg" alt="logo1" /></a>
       <nav>
-        <a class="activeA" href="../portfolio.html">portfolio</a>
-        <a href="../omMig.html">om mig</a>
-        <a href="../kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a class="activeA" href="../portfolio.html">portfolio</a></li>
+          <li><a href="../omMig.html">om mig</a></li>
+          <li><a href="../kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
@@ -27,6 +35,7 @@
         <a href="T5.html">T5</a>
         <a href="T6.html">T6</a>
       </nav>
+      <h2 id="tematitel">T2 - Grundlæggende Web</h2>
       <div class="T_grid">
         <section class="T_Title">
           <h1 id="th1">t2</h1>
@@ -39,13 +48,16 @@
               <article>
                 <h4>Responsivt website om min egen computer og andre styresystemer med tekst, billeder og billedgalleri.</h4>
               </article>
+              <button class="CTA">
+                <a href="https://max-magee.github.io/_website/index.html" target="_blank">LINK</a>
+              </button>
             </div>
           </div>
           <div class="prosection">
             <h2>Proces</h2>
             <div class="info-list">
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T2/Skærmbillede 2026-01-07 004540.png" alt="Article image" />
                 <div class="info-content">
                   <h3>HTML & CSS:</h3>
                   <h4>Struktur, semantik og filopbygning i VS Code</h4>
@@ -53,7 +65,7 @@
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T2/Skærmbillede 2026-01-07 004613.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Layout:</h3>
                   <h4>Flexbox og CSS Grid</h4>
@@ -61,21 +73,21 @@
               </article>
 
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T2/Skærmbillede 2026-01-07 004814.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Design:</h3>
                   <h4>Farver, typografi og visuel struktur</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T2/Skærmbillede 2026-01-07 004903.png" alt="Article image" />
                 <div class="info-content">
                   <h3>Responsivitet:</h3>
                   <h4>Media queries og billedhåndtering</h4>
                 </div>
               </article>
               <article class="info-article">
-                <img src="../imgs/LOGO1.svg" alt="Article image" />
+                <img src="../imgs/T2/Skærmbillede 2026-01-07 004937.png" alt="Article image" />
                 <div class="info-content">
                   <h3>GitHub:</h3>
                   <h4>Validering, push og publish</h4>
@@ -104,6 +116,7 @@
           </div>
         </section>
       </div>
+      <script src="../js/menu.js"></script>
     </main>
     <footer></footer>
   </body>

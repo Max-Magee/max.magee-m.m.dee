@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/burger.css" />
     <title>T1 - Intro</title>
   </head>
 
@@ -12,9 +13,16 @@
     <header>
       <a href="index.html"><img class="headerlogo" src="imgs/LOGO1.svg" alt="logo1" /></a>
       <nav>
-        <a href="portfolio.html">portfolio</a>
-        <a class="activeA" href="omMig.html">om mig</a>
-        <a href="kontakt.html">kontakt</a>
+        <ul class="menu">
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a class="activeA" href="omMig.html">om mig</a></li>
+          <li><a href="kontakt.html">kontakt</a></li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
       </nav>
     </header>
 
@@ -22,63 +30,83 @@
       <div class="T_grid">
         <section class="T_Title">
           <h1>Om Mig</h1>
-          <figure><figcaption></figcaption></figure>
+          <figure>
+            <img src="imgs/79ce877d-164e-404c-a968-77b6a860cf5d.jpg" alt="portrait" />
+            <figcaption></figcaption>
+          </figure>
         </section>
         <section class="_3p">
           <div class="prosection">
             <h2>Max Magee</h2>
             <div>
               <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
+                <h4>
+                  Jeg er studerende på Multimediedesign med erfaring fra både medieproduktion, service og kultur. Ved siden af studiet arbejder jeg hos Faraos Cigar med salg af tegneserier og kundekontakt.
+
+                  <br />
+                  Jeg har tidligere arbejdet med tv-produktion i Danmark og udlandet samt haft lederansvar i restaurationsbranchen.
+                  <br /><br /><br />Se min portfolio der tager dig igennem mit første semester på Multimediedesign!
+                </h4>
               </article>
+              <button class="CTA">
+                <a href="portfolio.html">PORTFOLIO</a>
+              </button>
             </div>
           </div>
           <div class="prosection">
             <h2>CV</h2>
             <div>
-              <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
+              <article class="cv-article">
+                <h3>Faraos Cigar - 2024-</h3>
+                <h4>Butiksmedarbejder</h4>
+              </article>
+            </div>
+            <article class="cv-article">
+              <h3>Sliders - 2019-2024</h3>
+              <h4>Manager/Tjener/Køkkenarbejder</h4>
+            </article>
+            <div>
+              <article class="cv-article">
+                <h3>Mastiff TV/The Post - 2020-2023</h3>
+                <h4>Batcher/Klippeassistent/Media Manager/Runner</h4>
               </article>
             </div>
             <div>
-              <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
-              </article>
-              <img src="imgs/LOGO1.svg" alt="test" />
-            </div>
-            <div>
-              <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
+              <article class="cv-article">
+                <h3>Jolene + Halifax Burgers- 2019</h3>
+                <h4>Bartender/Tjener</h4>
               </article>
             </div>
             <div>
-              <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
+              <article class="cv-article">
+                <h3>McKibbins Irish Pub, Montréal, Canada - 2016-2018</h3>
+                <h4>Busboy</h4>
               </article>
             </div>
             <div>
-              <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
+              <article class="cv-article">
+                <h3>DDB Copenhagen - 2015-2016</h3>
+                <h4>Receptionist/Piccolo/Runner</h4>
+              </article>
+            </div>
+            <div>
+              <article class="cv-article">
+                <h3>Diverse TV- og reklamebureauer – 2012-2015</h3>
+                <h4>Runner/Produktions Assistent</h4>
               </article>
             </div>
           </div>
           <div class="prosection">
             <h2>Kontakt</h2>
             <div>
-              <article>
-                <h3>lorem1</h3>
-                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, corporis. Aut qui error nesciunt eaque quo velit harum commodi inventore aliquam neque, explicabo molestias necessitatibus!</h4>
-              </article>
+              <button class="CTA">
+                <a href="kontakt.html">KONTAKT INFORMATION</a>
+              </button>
             </div>
           </div>
         </section>
       </div>
+      <script src="js/menu.js"></script>
     </main>
     <footer></footer>
   </body>
